@@ -5,6 +5,7 @@ class Board:
 class Solution:
     pass
 
+
 def main():
     pass
 

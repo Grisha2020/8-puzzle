@@ -2,8 +2,11 @@ import numpy as np
 import beautifultable as bt
 
 
-class Puzzle:
+class Node:
+    pass
 
+
+class Puzzle:
     def __init__(self, board: list):
         self.board = board
         self.width = len(board)
@@ -15,7 +18,7 @@ class Puzzle:
             table.append_row(self.board[k])
         return str(table)
 
-    def get_idx(self, board, value)->(int, int):
+    def get_idx(self, board, value) -> (int, int):
         for i in range(self.width):
             for j in range(self.width):
                 if board[i][j] == value:

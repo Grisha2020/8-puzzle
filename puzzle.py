@@ -3,7 +3,11 @@ import beautifultable as bt
 
 
 class Node:
-    pass
+    def __init__(self, data, level, fval):
+        """ Initialize the node with the data, level of the node and the calculated fvalue """
+        self.data = data
+        self.level = level
+        self.finalvalue = fval
 
 
 class Puzzle:
@@ -11,6 +15,9 @@ class Puzzle:
         self.board = board
         self.width = len(board)
         self.goal = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
+
+    def accept(self):
+        pass
 
     def __repr__(self):
         table = bt.BeautifulTable()

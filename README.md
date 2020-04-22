@@ -4,4 +4,4 @@
 
 *script solves puzzle NxN*
 
-**link:**https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php
+***link:https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php***
